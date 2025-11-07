@@ -1,3 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: black;
+}
+
+#instagram-logo img{
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#space{
+    height: 10vh;
+    width: 100vw;
+}
+#container{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80vh;
+    gap : calc(5vw + 1rem);
+}
+#box-pic{
+    margin-left: 100px;
+}
+#login-box{
+    background-color: black;
+    width: 20vw;
+    height: 70vh;
+    border-radius: 5%;
+
+}
+#instagram-logo{
+    height: 8vh;
+    margin-top: 5vh;
+}
+#formLogin{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 2vw;
+    gap : 2vh;
+}
+.input-box{
+    height: 5vh;
+    border-radius: 0.5vh;
+    border: none;
+    padding-left: 1vw;
+    font-size: 0.7rem;
+    background-color: rgb(23, 23, 23);
+    border: 1px solid grey;
+}
+.login-btn{
+    height: 5vh;
+    border-radius: 1vh;
+
+}
+#line-or{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+}
+#line1{
+    height: 1px;
+    width: 6vw;
+    background-color: rgb(127, 126, 126);
+    opacity: 0.3;
+}
+#line2{
+    height: 1px;
+    width: 6vw;
+    background-color: grey;
+    opacity: 0.3;
+}
+.fb-link{
+    color: rgb(0, 13, 196);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5vh;
+}
+.forgot{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+#sign-up-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 0.9rem;
+    margin-top: 7vh;
+}
+.sign{
+    color: blue;
+    text-decoration: none;
+}
+.footer-links{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 5vh;
+    flex-wrap: nowrap;
+}
+.link-text{
+    color: grey;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#language-select{
+    background-color: black;
+    border: 0px solid grey;
+    color: grey;
+    padding: 0.5vh 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer-bottom{
+    color : grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 2vh;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
